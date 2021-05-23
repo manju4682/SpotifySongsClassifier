@@ -1,6 +1,6 @@
 # Spotify Songs Classifier
 ## Motivation for the project
-Recently Spotify rolled out a new feature to categorise songs of 'Liked Songs' into different genres. This feature was released in a few english speaking nations. The motivation for this project was derived from here. Songs can be classified into different genres based on some of their features. Truly speaking, there is no one easy way to classify these songs based on these features. But, some song features like Loudness, instrumentaness and speechiness can pave for the genre classification. 
+Recently Spotify rolled out a new feature to categorise songs of 'Liked Songs' into different genres. This feature was released in a few english speaking nations. The motivation for this project was derived from here. Songs can be classified into different genres based on some of their features. Truly speaking, there is no one easy way to classify these songs based on these features. But, some song features like Loudness, instrumentalness and speechiness can pave the way for deciding the genre a song belongs to. 
 
 ## Features
 ~ A user can just paste the playlist id and all the songs in the playlist will be classified into 7 different genres namely, Pop, Rock, Hip Hop, Jazz, Blues, Folk/Accoustic and Metal  
@@ -15,4 +15,8 @@ Several tools and technologies used during the course of this project:
 * sklearn
 * Handling APIs
 * json/csv file handling
-* Understanding of several ML models
+* Understanding of several ML algorithms
+* Training and testing ML models
+
+## Conclusion and takeaways
+Being a music lover myself, wanted to do something that concerned the music industry and probably benefit it. And this idea seemed interesting. It becomes difficult to classify a song into different genres based on their features. Because a song can belong to multiple genres. And challenging problems are also most fun to solve. And multi-label classification came in handy. Although it may not be the most accurate of the classifiers, it does fairly well to put a song into closest genre it might belong to. And this project did truly exposed me to a lot of different tools and technologies in ML domain. ML is a vast and ever growing domain. I am happy that I was able to do something to satisfy that music lover in me.
